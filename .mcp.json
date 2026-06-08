@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "n8n": {
+      "command": "npx",
+      "args": ["n8n-mcp"],
+      "env": {
+        "MCP_MODE": "stdio",
+        "LOG_LEVEL": "error",
+        "DISABLE_CONSOLE_OUTPUT": "true",
+        "N8N_API_URL": "https://app-reservas-n8n.cuku3d.easypanel.host",
+        "N8N_API_KEY": "${N8N_API_KEY}"
+      }
+    }
+  }
+}
